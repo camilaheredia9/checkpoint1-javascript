@@ -1,3 +1,4 @@
+// entrega 1
 const nombre = "Camila"; //String
 const apellido = "Heredia"; //String
 var edad = 24; //Number
@@ -14,3 +15,22 @@ var madre = {
     telefono: 1185978625,
     hobbies: ["cantar", "pescar", "correr"],
 } // Object
+
+
+// entrega 2: tomando decisiones
+
+let mascotas = "perro";
+
+switch (mascotas) {
+    case "":
+        console.log("No tengo mascotas");
+        break;
+    case "perro":
+        console.log("Tengo perro");
+        break;
+    case "gato":
+        console.log("Tengo gato");
+        break;
+    default:
+        console.log(`Tengo ${mascotas}`);    
+}
